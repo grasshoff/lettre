@@ -1,0 +1,13 @@
+icons:
+lotti:
+  demo: https://assets5.lottiefiles.com/packages/lf20_V9t630.json
+  info: https://assets7.lottiefiles.com/datafiles/nEcNvHOihy2iUQL/data.json
+streamlit:
+  keplergl: https://causlayer.orgs.hk/chrieke/streamlit-keplergl
+  observable: https://causlayer.orgs.hk/asg017/streamlit-observable
+  toggle-buttons: https://causlayer.orgs.hk/asehmi/streamlit-toggle-buttons-component
+  hiplot: https://facebookresearch.github.io/hiplot/tuto_streamlit.html 
+  xtra: https://pypi.org/project/extra-streamlit-components/
+    router: in xtra
+  cooltricks: https://medium.com/@avra42/streamlit-python-cool-tricks-to-make-your-web-application-look-better-8abfc3763a5b
+  btn_select: https://github.com/0phoff/st-btn-select
