@@ -1,6 +1,7 @@
 import streamlit as st 
 from inspect import getmembers
 from types import FunctionType
+from st_btn_select import st_btn_select
 
 def attributes(obj):
     disallowed_names = {
@@ -46,3 +47,5 @@ def style_button_row(clicked_button_ix, n_buttons):
                     else:
                               style += unclicked_style % get_button_indices(ix)
           st.markdown(f"<style>{style}</style>", unsafe_allow_html=True)
+          
+          

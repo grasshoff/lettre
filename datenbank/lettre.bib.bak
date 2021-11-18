@@ -1,0 +1,42 @@
+% Encoding: UTF-8
+
+@Book{Waefler2020,
+  author    = {Markus Wäfler},
+  publisher = {OpenScienceTechnology},
+  title     = {Tall al-Hamidiya - Bericht 2002-2011},
+  year      = {2020},
+  address   = {Berlin},
+  isbn      = {978-3-949060-00-7},
+  volume    = {5},
+}
+
+@Book{UlrikePeter2021,
+  editor    = {Ulrike Peter, Peter-Vladimir F. Stolba},
+  publisher = {Edition Topoi},
+  title     = {Thrace-Local Coinage and Regional Identity},
+  year      = {2021},
+  isbn      = {978-3-949060-03-8},
+}
+
+@Book{GudrunWolfschmidt2021,
+  editor    = {Gudrun Wolfschmidt, Susanne M. Hoffmann},
+  publisher = {OpenScienceTechnology},
+  title     = {Applied and Computational Historical Astronomy},
+  year      = {2021},
+  address   = {Berlin},
+  edition   = {comp.book},
+  isbn      = {978-3-949060-02-1},
+}
+
+@Book{Waefler2020,
+  author    = {Markus Wäfler},
+  publisher = {OpenScienceTechnology},
+  title     = {Tall al-Hamidiya - Bericht 2002-2011},
+  year      = {2020},
+  address   = {Berlin},
+  edition   = {comp.book},
+  isbn      = {978-3-949060-01-4},
+  volume    = {5},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
