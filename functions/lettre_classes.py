@@ -6,16 +6,24 @@ from streamlit_ace import st_ace
 from mongoengine import *
 import datetime
 
-class ISBN(Document):
-          def __init__(self):
-                    self.name=""
-
 class Titel(Document):
-          def __init__(self):
-                    self.name=""
-class VLB(Document):
-          def __init__(self):
-                    self.name=""
+          author = StringField()
+          ENTRYTYPE = StringField(),
+          year = StringField(),
+          author = StringField(),
+          edition = StringField(),
+          ID = StringField(),
+          isbn = StringField(),
+          doi = StringField(),
+          volume = StringField(),
+          editor = StringField(),
+          issn = StringField(),
+          publisher = StringField(),
+          pages = StringField(),
+          address = StringField(),
+          title = StringField()
+
+        
 class News(Document):
           def __init__(self):
                     self.name=""
@@ -29,11 +37,12 @@ class Adressen(Document):
           email = StringField()
           tel = StringField()
           titel = StringField()
+          buch = StringField()
           ort = StringField()
           plz = StringField()
           strasse = StringField()
           kategorie = ListField(StringField(max_length=30))
-          buch = StringField()
+#          titel = ListField(ReferenceField(Titel))
           reihe = StringField()
           notiz = StringField()
           link_url = StringField()
